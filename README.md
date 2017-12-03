@@ -1,0 +1,4 @@
+# try-wercker
+
+# dependencies
+- wercker

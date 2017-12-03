@@ -24,3 +24,9 @@ build:
         name: echo
         code: |
           echo "hello world!"
+dev:
+  steps:
+    - internal/watch:
+      code: bash app.sh
+      reload: true
+
