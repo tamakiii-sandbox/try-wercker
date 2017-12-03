@@ -26,7 +26,12 @@ build:
           echo "hello world!"
 dev:
   steps:
-    - internal/watch:
-      code: bash app.sh
-      reload: true
+    #- internal/watch:
+    #  code: bash app.sh
+    #  reload: true
+
+    - internal/shell:
+      cmd: /bin/bash
+      code: |
+        cd /var/log
 
