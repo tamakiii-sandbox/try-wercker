@@ -30,8 +30,11 @@ dev:
     #  code: bash app.sh
     #  reload: true
 
-    - internal/shell:
-      cmd: /bin/bash
-      code: |
-        cd /var/log
+    #- internal/shell:
+    #  cmd: /bin/bash
+    #  code: |
+    #    cd /var/log
 
+    - script:
+      code: |-
+        bash app.sh

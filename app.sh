@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
 
-echo 'hello'
-
+exit 1
