@@ -23,7 +23,7 @@ build:
     - script:
         name: echo
         code: |
-          echo "hello world!"
+          bash app.sh
 dev:
   steps:
     #- internal/watch:
